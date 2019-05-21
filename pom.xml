@@ -42,5 +42,5 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:DMdavydov/sfg-pet-clinic.git</developerConnection>
-  </scm>
+    </scm>
 </project>
