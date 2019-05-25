@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.davydov</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.6-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
 
@@ -42,6 +42,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:DMdavydov/sfg-pet-clinic.git</developerConnection>
-    </scm>
+        <developerConnection>scm:git:https://github.com/DMdavydov/sfg-pet-clinic.git</developerConnection>
+      <tag>HEAD</tag>
+  </scm>
 </project>
