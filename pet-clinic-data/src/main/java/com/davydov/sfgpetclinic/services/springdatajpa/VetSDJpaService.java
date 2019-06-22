@@ -4,10 +4,14 @@ import com.davydov.sfgpetclinic.model.Vet;
 import com.davydov.sfgpetclinic.repositories.SpecialtyRepository;
 import com.davydov.sfgpetclinic.repositories.VetRepository;
 import com.davydov.sfgpetclinic.services.VetService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
+@Profile("springdatajpa")
 public class VetSDJpaService implements VetService {
 
     private final VetRepository vetRepository;
