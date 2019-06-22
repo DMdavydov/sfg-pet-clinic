@@ -2,9 +2,11 @@ package com.davydov.sfgpetclinic.services.map;
 
 import com.davydov.sfgpetclinic.model.Visit;
 import com.davydov.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     private final VisitService visitService;
