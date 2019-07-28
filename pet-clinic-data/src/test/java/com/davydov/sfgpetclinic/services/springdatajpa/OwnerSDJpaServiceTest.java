@@ -92,7 +92,7 @@ class OwnerSDJpaServiceTest {
     void save() {
         Owner ownerToSave = Owner.builder().id(1L).lastName(LAST_NAME).build();
 
-        when(ownerRepository.save(any())).thenReturn(Optional.of(returnOwner));
+        when(ownerRepository.save(any())).thenReturn(returnOwner);
 
         Owner ownerSaved = ownerSDJpaService.save(ownerToSave);
 
